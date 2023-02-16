@@ -11,7 +11,7 @@ namespace laba_1
             Console.WriteLine("Введие количество шагов:");
             int n = Convert.ToInt32(Console.ReadLine());
 
-            double sum = x;
+            double sum = 0;
 
             for(int i = 1; i <= n; i++)
             {
@@ -31,7 +31,7 @@ namespace laba_1
             }
             if (n > 0 && x < 1)
             {
-                Console.WriteLine( 3.14/2 - sum);
+                Console.WriteLine( 3.14/2 - x + sum);
 
             }
             else
